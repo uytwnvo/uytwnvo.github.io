@@ -4,7 +4,33 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
-  
+
+  .sidebar {
+  width: 150px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar a {
+  background: white;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.sidebar a:hover {
+  color: #ff6b6b;
+}
+main {
+  flex: 1;
+  min-width: 0;
+}
    <style>
 li img {
   width: 100%;
@@ -37,6 +63,9 @@ header p {
     line-height: 1.7;
     color: #2b2b2b;
     background: linear-gradient(135deg, #fff0eb, #fff8f0);
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
   }
   h1 {
     font-size: 2.2em;
@@ -71,15 +100,48 @@ header p {
   a:hover {
     text-decoration: underline;
   }
+     .sidebar {
+  width: 150px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar a {
+  background: white;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.sidebar a:hover {
+  color: #ff6b6b;
+}
+main {
+  flex: 1;
+  min-width: 0;
+}
 </style>
 </head>
+  </main>
 <body>
-  <header>
+  <nav class="sidebar">
+  <a href="#profile">プロフィール</a>
+  <a href="#works">作品一覧</a>
+  <a href="#contact">連絡先</a>
+</nav>
+<main>
+  <header id="profile">
   <h1>あなたの名前</h1>
   <p>ここに簡単な自己紹介を書く。</p>
 </header>
 
-  <h2>作品一覧</h2>
+  <h2 id="works">作品一覧</h2>
   <ul>
     <li>
       <img src="2026-08-04_14h11_37.png" alt="作品名1のイメージ">
@@ -94,7 +156,7 @@ header p {
     </li>
   </ul>
 
-  <h2>連絡先</h2>
+  <h2 id="contact">連絡先</h2>
   <p>Email: your-email@example.com</p>
 </body>
 </html>
