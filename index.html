@@ -4,157 +4,22 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
-
-
-
-   <style>
-li img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  object-fit: contain;
-  display: block;
-}
-     header {
-  background-image: linear-gradient(135deg, rgba(255,107,107,0.85), rgba(255,160,107,0.85)), url('header-bg.jpg.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 50px 30px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-}
-header h1 {
-  color: white;
-  margin: 0 0 10px 0;
-}
-header p {
-  color: white;
-  opacity: 0.9;
-  margin: 0;
-}
-  body {
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 0 20px;
-    line-height: 1.7;
-    color: #2b2b2b;
-    background: linear-gradient(135deg, #fff0eb, #fff8f0);
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-  }
-  h1 {
-    font-size: 2.2em;
-    margin-bottom: 4px;
-  }
-  h2 {
-    margin-top: 50px;
-    font-size: 1.3em;
-    border-left: 6px solid #ff6b6b;
-    padding-left: 12px;
-  }
-  ul {
-    padding: 0;
-  }
-  li {
-    list-style: none;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    transition: transform 0.2s;
-  }
-  li:hover {
-    transform: translateY(-3px);
-  }
-  a {
-    color: #2f4f4f;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-     .sidebar {
-  width: 150px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-image: linear-gradient(180deg, rgba(255,107,107,0.85), rgba(255,160,107,0.85)), url('header-bg.jpg.jpg');
-background-size: cover;
-background-position: center;
-  padding: 20px;
-  border-radius: 12px;
-}
-
-main {
-  flex: 1;
-  min-width: 0;
-}
-
-.sidebar {
-  width: 150px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.sidebar a {
-  background: white;
-  color: #2b2b2b;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 14px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  text-align: center;
-}
-.sidebar a:hover {
-  color: #ff6b6b;
-}
-main {
-  flex: 1;
-  min-width: 0;
-}
-</style>
+  <link rel="stylesheet" href="style.css">
 </head>
-</main>
 <body>
   <nav class="sidebar">
-  <a href="#profile">プロフィール</a>
-  <a href="#works">作品一覧</a>
-  <a href="#contact">連絡先</a>
-</nav>
-<main>
-  <header id="profile">
-  <h1>あなたの名前</h1>
-  <p>ここに簡単な自己紹介を書く。</p>
-</header>
+    <a href="index.html">プロフィール</a>
+    <a href="works.html">作品一覧</a>
+    <a href="#contact">連絡先</a>
+  </nav>
+  <main>
+    <header>
+      <h1>あなたの名前</h1>
+      <p>ここに簡単な自己紹介を書く。</p>
+    </header>
 
-  <h2 id="works">作品一覧</h2>
-  <ul>
-    <li>
-      <img src="2026-08-04_14h11_37.png" alt="作品名1のイメージ">
-      <h3>作品名1</h3>
-      <p>作品の説明をここに書く。</p>
-      <a href="https://example.com">見に行く</a>
-    </li>
-    <li>
-      <h3>作品名2</h3>
-      <p>作品の説明をここに書く。</p>
-      <a href="https://example.com">見に行く</a>
-    </li>
-  </ul>
-
-  <h2 id="contact">連絡先</h2>
-  <p>Email: your-email@example.com</p>
+    <h2 id="contact">連絡先</h2>
+    <p>Email: your-email@example.com</p>
+  </main>
 </body>
 </html>
