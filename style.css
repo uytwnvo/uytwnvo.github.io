@@ -4,8 +4,8 @@ html {
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+　padding: 60px 20px;
   line-height: 1.7;
   color: #2b2b2b;
   background: linear-gradient(135deg, #fff0eb, #fff8f0);
