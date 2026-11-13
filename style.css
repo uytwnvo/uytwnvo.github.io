@@ -1,5 +1,8 @@
 html {
-  background: #d17a5c;
+  background-image: url('header-bg.jpg.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
