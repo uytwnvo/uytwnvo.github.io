@@ -131,3 +131,34 @@ footer {
   color: #777;
   text-align: center;
 }
+a.zoom img {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 100;
+}
+
+.lightbox:target {
+  display: block;
+}
+
+.lightbox a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox img {
+  max-width: 92vw;
+  max-height: 92vh;
+}
