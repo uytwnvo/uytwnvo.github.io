@@ -105,3 +105,21 @@ main {
 .sidebar a:hover {
   color: #ff6b6b;
 }
+.sns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.sns a {
+  background: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.sns a:hover {
+  color: #ff6b6b;
+  text-decoration: none;
+}
