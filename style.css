@@ -220,4 +220,8 @@ a.zoom img {
   h2 {
     margin-top: 30px;
   }
+    .works {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
